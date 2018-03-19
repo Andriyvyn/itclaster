@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    
+.menu{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    list-style-type: none;
+    overflow: auto;
+    padding: 0;
+   
+    
+}
+.menu-item-left{
+    float: left;
+    border-right-style: none;
+   
+    margin-left: 14%;
+   
+    
+}
+
+
+.menu-ref{
+    display: block;
+    padding: 10px;
+    color: gray;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1.5rem;
+    
+}
+
+ /*Меню*/
+
+ .back-grey {
+     background-color: rgb(234, 235, 237);
+ }
+
+ .btn-outline {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    line-height: 1.4;
+    padding: 0.14276rem 0.5rem;
+    font-size: 0.78571rem;
+    border-radius: 50px;
+    padding: 1%;
+    margin-left: 3%;
+}
+
+.btn-square {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    line-height: 1.4;
+    padding: 0.14276rem 0.5rem;
+    font-size: 0.78571rem;
+    
+    padding: 1%;
+    margin-left: 3%;
+}
+
+
+.btn-outline.btn-outline-blue {
+    color: white;
+    border-color: white; 
+    background-color: transparent;
+   
+
+}
+
+.btn-outline.btn-outline-blue:hover {
+    border-color: white;
+    background-color: white;
+    color: royalblue;
+}
+
+.btn-square.btn-outline-port {
+    color: royalblue;
+    border-color: transparent; 
+    background-color: transparent;
+   
+
+}
+
+.btn-square.btn-outline-port:hover {
+    border-color: transparent;
+    background-color: rgb(168, 174, 181);
+    color: royalblue;
+}
+
+
+
+    /*button*/
+
+    .photo {
+        margin: 0;
+        background-image: url(../img/1.jpg);
+        
+        background-size: cover;
+        position: relative;
+    height: 100vh;
+    width: 100vw;
+    }
+    .photo:hover{
+        background-color: rgba(0, 0, 0, 0.521);
+        overflow: hidden;
+    }
+
+    .photo h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        margin-top: 15%;
+        font-size: 5rem;
+       
+
+    }
+
+    .photo h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+       
+        font-size: 2rem;
+
+    }
+    .photo .filter {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20, 20, 20, 0.618);
+    }
+    .button {
+        text-align: center;
+            
+    }
+
+    /*Головна*/
+
+    article {
+        margin-top: 5%;
+    }
+
+    .about h2 {
+        color: rgb(99, 98, 98);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+
+    }
+
+    .about hr {
+        background: royalblue;
+        width: 100px;
+    }
+
+    .about h5 {
+        text-align: center;
+        color: rgb(135, 132, 132);
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        margin-top: 2%;
+    }
+
+    .bio {
+        display: inline-block;
+        margin-top: 3%;
+    }
+
+    .bio img {
+        float: left;
+        margin: 0px 40px 0px 0px;
+    }
+    .bio p {
+        color: rgb(135, 132, 132);
+        margin-bottom: 3px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /*Профіль*/
+
+.port {
+    display: inline;
+    margin: auto;
+}
+
+ /*Портфоліо*/
+
+ footer{
+    background-color: royalblue;
+    padding: 20px 10px;
+    color: white;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer form input, textarea {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.contact h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+}
+
+.contact hr {
+    background: rgb(255, 255, 255);
+    width: 100px;
+}
+
+.contact h5 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+.mail {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333
+}
