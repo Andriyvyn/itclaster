@@ -1,0 +1,247 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        /*Меню*/
+        
+        .navigation ul {
+            margin: 0 auto;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+            text-align: center;
+            padding: 12px 0px;
+        }
+        
+        .navigation li {
+            display: inline-block;
+            padding: 5px 15px;
+        }
+        
+        .trans {
+            transition-duration: 0.5s;
+        }
+        
+        .navigation a {
+            color: rgb(255, 255, 255);
+            font-size: 1.05rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition-duration: 0.4s;
+        }
+        
+        .navigation a:hover {
+            text-decoration: none;
+            color: rgba(65, 105, 225, 0.487);
+        }
+        
+        .navigation {
+            position: fixed;
+            z-index: 20;
+            background-color: rgba(65, 105, 225, 0.529);
+            width: 100%;
+            margin: auto;
+        }
+        /* button */
+        
+        .back-grey {
+            background-color: rgb(234, 235, 237);
+        }
+        
+        .btn-outline {
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            border: 1px solid transparent;
+            line-height: 1.4;
+            padding: 0.14276rem 0.5rem;
+            font-size: 0.78571rem;
+            border-radius: 50%;
+            padding: 1%;
+            margin-left: 3%;
+            font-size: 1.5rem;
+        }
+        
+        .btn-square {
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            border: 1px solid transparent;
+            line-height: 1.4;
+            padding: 0.14276rem 0.5rem;
+            font-size: 0.78571rem;
+            padding: 1%;
+            margin-left: 3%;
+        }
+        
+        .btn-outline.btn-outline-blue {
+            color: white;
+            border-color: white;
+            background-color: transparent;
+        }
+        
+        .btn-outline.btn-outline-blue:hover {
+            border-color: white;
+            background-color: white;
+            color: royalblue;
+        }
+        
+        .btn-square.btn-outline-port {
+            color: royalblue;
+            border-color: transparent;
+            background-color: transparent;
+        }
+        
+        .btn-square.btn-outline-port:hover {
+            border-color: transparent;
+            background-color: rgb(168, 174, 181);
+            color: royalblue;
+        }
+        /*button*/
+        /*Головна*/
+        
+        .photo {
+            margin: auto;
+            background-image: url(../img/1.jpg);
+            background-size: cover;
+            position: relative;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .photo:hover {
+            background-color: rgba(0, 0, 0, 0.521);
+            overflow: hidden;
+        }
+        
+        .photo h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            margin-top: 15%;
+            font-size: 5rem;
+        }
+        
+        .photo h5 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+        }
+        
+        .photo .filter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(20, 20, 20, 0.618);
+        }
+        
+        .button {
+            text-align: center;
+        }
+        /*Головна*/
+        /*Профіль*/
+        
+        article {
+            margin-top: 5%;
+        }
+        
+        .about h2 {
+            color: rgb(99, 98, 98);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        
+        .about hr {
+            background: royalblue;
+            width: 100px;
+        }
+        
+        .about h5 {
+            text-align: center;
+            color: rgb(135, 132, 132);
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            margin-top: 2%;
+        }
+        
+        .bio {
+            display: inline-block;
+            margin-top: 3%;
+        }
+        
+        .bio img {
+            float: left;
+            margin: 0px 40px 0px 0px;
+        }
+        
+        .bio p {
+            color: rgb(135, 132, 132);
+            margin-bottom: 3px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        /*Профіль*/
+        /*Портфоліо*/
+        
+        .portfolio {
+            margin-top: 5%;
+        }
+        
+        .port {
+            display: inline;
+            margin: auto;
+        }
+        /*Портфоліо*/
+        /* footer */
+        
+        footer {
+            background-color: royalblue;
+            padding: 20px 10px;
+            color: white;
+        }
+        
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        footer .div .col-4 form input,
+        textarea {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+        
+        .contact h2 {
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        
+        .contact hr {
+            background: rgb(255, 255, 255);
+            width: 100px;
+        }
+        
+        .contact h5 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            margin-top: 2%;
+        }
+        
+        .mail {
+            height: 46px;
+            padding: 10px 16px;
+            font-size: 18px;
+            line-height: 1.3333333
+        }
+        /* footer */
